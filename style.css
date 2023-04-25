@@ -1,0 +1,25 @@
+svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  body {
+    background: #555;
+    
+  }
+  
+  circle {
+    animation: 3s move alternate infinite ease-in-out;
+  }
+  
+  @keyframes move {
+    from {
+      transform: translateX(40px);
+    }
+    to {
+      transform: translate(500px);
+    }
+  }
